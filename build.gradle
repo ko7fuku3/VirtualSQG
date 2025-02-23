@@ -4,6 +4,10 @@ plugins {
 	id 'org.springframework.boot' version '3.4.3'
 	id 'io.spring.dependency-management' version '1.1.7'
 }
+war {
+    enabled = true
+    archiveFileName = 'VirtualSQG.war'
+}
 
 group = 'com.example'
 version = '0.0.1-SNAPSHOT'
